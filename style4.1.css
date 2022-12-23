@@ -1,0 +1,337 @@
+body {
+  margin: 10px;
+  padding: 10px;
+  background-color: black;
+}
+
+.contenedor {
+  width: 1440px;
+  height: 1024px;
+  background-color: #F3F5FC;
+}
+
+.logo {
+  left: 36.67%;
+  right: 37.43%;
+  margin-top: 20px;
+  bottom: 0%;
+}
+
+.text{
+    /* Ingrese el texto aqui */
+    /* Para evitar que se muestre
+     la barra de desplazamiento
+      en un elemento 
+    "textarea", puedes utilizar la propiedad 
+    "overflow" y asignarle un valor de "hidden" */
+
+    overflow: hidden;
+    font-size: 30px;
+    border: none;
+    color: #0A3871;
+    width: 500px;
+    height: 50px;
+
+    /* Para eliminar el borde que se crea 
+    alrededor del input cuando el usuario 
+    empieza a escribir, puedes utilizar la
+     propiedad "outline" y asignarle un valor de "none": */
+
+    outline: none;
+    /* Para evitar que el contenido de un elemento 
+    "textarea" se desplace al escribir varias líneas 
+    de texto, puedes utilizar la propiedad "resize" 
+    y asignarle un valor de "none". Por ejemplo: */
+    resize: none;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    left: 215px;
+    top: 268px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+/* identical to box height, or 48px */
+
+
+/* Dark blue/dark-blue-300 */
+}
+
+.logo2{
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    left: 98px;
+    top: 720px;
+    border-radius: 0px;
+    margin-left: 120px;
+  
+    margin-top:290;   
+    
+
+    
+
+
+
+}
+#text1{
+    /* Solo letras minúsculas y sin acentos */
+
+
+width: 205px;
+height: 18px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+/* identical to box height, or 18px */
+/* Gray/gray-400 */
+color: #495057;
+opacity: 0.8;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin-left: 220px;
+margin-top:580px;
+}
+/* .container {
+    position: relative;
+    top: 180px;
+  } */
+
+
+  #encriptar{
+    /* Button */
+ 
+ 
+ /* Auto layout */
+ 
+ display: flex;
+ flex-direction: row;
+ align-items: flex-start;
+ padding: 24px;
+ gap: 8px;
+ width: 328px;
+ height: 67px;
+ /* Dark blue/dark-blue-300 */
+ background: #0A3871;
+ border-radius: 24px;
+ /* Inside auto layout */
+ flex: none;
+ order: 0;
+ flex-grow: 0;
+ margin-left: 13.8%;
+ margin-top: 10;
+ 
+ 
+ /* Button */
+ font-family: 'Inter';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 10px;
+ text-align: center;
+ text-indent: 180%;
+ /* White */
+ color: #FFFFFF;
+ /* Inside auto layout */
+ flex: none;
+ order: 0;
+ flex-grow: 1;
+ 
+ }
+
+ #desencriptar{
+
+    /* Button */
+    
+    
+    width: 280px;
+    height: 19px;
+    
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    justify-content: center;
+    
+    margin-left: 580px;
+    margin-top: -67px;
+    
+    /* Dark blue/dark-blue-300 */
+    
+    color: #0A3871;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+        /* Button */
+    box-sizing: border-box;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    /* Light gray */
+    background: #D8DFE8;
+    /* Dark blue/dark-blue-300 */
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    }
+    
+
+.rectangle{
+    /* Rectangle 1 */
+
+
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+
+    /* White */
+
+    background: #FFFFFF;
+    /* shadow */
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.logo3{
+    /* Vector */
+
+
+position: absolute;
+left: 0%;
+right: 10.58%;
+top: 30.5%;
+bottom: 12.25%;
+height: 400px;
+width: 400px;
+
+background: #E8E8E8;
+}
+
+.text2{
+
+    overflow: hidden;
+    font-size: 30px;
+    border: none;
+    color: #0A3871;
+    width: 500px;
+    height: 50px;
+
+    /* Para eliminar el borde que se crea 
+    alrededor del input cuando el usuario 
+    empieza a escribir, puedes utilizar la
+     propiedad "outline" y asignarle un valor de "none": */
+
+    outline: none;
+    /* Para evitar que el contenido de un elemento 
+    "textarea" se desplace al escribir varias líneas 
+    de texto, puedes utilizar la propiedad "resize" 
+    y asignarle un valor de "none". Por ejemplo: */
+    resize: none;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: 25px;
+    top: 28px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 50%;
+
+
+
+    
+}
+
+.btn-copiar{
+
+    /* Button */
+    
+    
+    width: 280px;
+    height: 49px;
+    
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;   
+    font-size: 16px;
+    line-height: 19px;
+    line-break: 10px;
+    display: flex;
+    justify-content: center;
+   
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 710px;
+    
+    /* Dark blue/dark-blue-300 */
+    
+    color: #0A3871;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+        /* Button */
+    box-sizing: border-box;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    /* Light gray */
+    background: #FFFFFF;
+    /* Dark blue/dark-blue-300 */
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    }
+
+    
+    button {
+        transition: background-color 0.2s;
+        transition: box-shadow 0.2s;
+      }
+      
+      button:active {
+        background-color: #0088cc;
+        box-shadow: 0 0 10px #0088cc;
+      }
+      
+      .moverArriba {
+        transform: translateY(-10px);
+        transition: transform 0.2s;
+      }
